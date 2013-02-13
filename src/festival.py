@@ -2,16 +2,17 @@
 # 1장 록 페스티벌
 # http://algospot.com/judge/problem/read/FESTIVAL
 
-def calculate(cost_list, min_teams):
+# method (1): 7000ms
+def solve(D, L):
   sums = []
 
-  for i in range(len(cost_list)):
-    sums.append(cost_list[i] if i == 0 else sums[i-1] + cost_list[i])
+  for i in range(len(D)):
+    sums.append(D[i] if i == 0 else sums[i-1] + D[i])
 
-  min = sums[len(cost_list)-1]
+  min = sums[len(D)-1]
 
-  for idx in range(min_teams-1, len(sums)):
-    for teams in range(min_teams-1, idx+1):
+  for idx in xrange(L-1, len(sums)):
+    for teams in xrange(L-1, idx+1):
       if idx == teams:
         average = sums[idx]/float(teams+1)
       else:
@@ -20,17 +21,9 @@ def calculate(cost_list, min_teams):
 
   return min
 
-def prompt():
-  numOfCases = int(raw_input())
-  for _ in range(numOfCases):
-    input = raw_input()
-    days_reserved = input.split(' ')
-    numOfDays = days_reserved[0]
-    numOfReserved = int(days_reserved[1])
-    input = raw_input()
-    costs = map(int, input.split(' '))
-
-    print '%.10lf' % calculate(costs, numOfReserved)
-
 if __name__ == '__main__':
-  prompt()
+  C = int(raw_input())
+  for _ in xrange(C):
+    N, L = map(int, raw_input().split())
+    D = map(int, raw_input().split())
+    print '%.10lf' % solve(D, L)

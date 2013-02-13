@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718aa7fe-3f62-4e9d-bd63-2f9bed4126e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jmbook.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/picnic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_picnic.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/festival.py" afterPath="$PROJECT_DIR$/src/festival.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test_festival.py" afterPath="$PROJECT_DIR$/src/test_festival.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jmbook.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="718aa7fe-3f62-4e9d-bd63-2f9bed4126e6" time="1360727302948" ignored="false" />
+    <file path="/picnic.py" changelist="718aa7fe-3f62-4e9d-bd63-2f9bed4126e6" time="1360736529626" ignored="false" />
+    <file path="/test_picnic.py" changelist="718aa7fe-3f62-4e9d-bd63-2f9bed4126e6" time="1360290859274" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/jmbook$Unittests_in_TestFestival_test_calculate.coverage" NAME="Unittests in TestFestival.test_calculate Coverage Results" MODIFIED="1360138199259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/jmbook$test_festival.coverage" NAME="test_festival Coverage Results" MODIFIED="1360137914911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/jmbook$Unittests_in_TestFestival_test_a.coverage" NAME="Unittests in TestFestival.test_a Coverage Results" MODIFIED="1360138218658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -28,22 +34,31 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6013889">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="test_festival.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test_festival.py">
+          <file leaf-file-name="picnic.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/picnic.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="38" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+                <state line="19" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="festival.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="festival.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/festival.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.03125">
+                <state line="12" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_festival.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test_festival.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="17" selection-start="417" selection-end="417" vertical-scroll-proportion="0.46706587">
                   <folding />
                 </state>
               </provider>
@@ -53,12 +68,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="test_festival.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test_festival.py">
+          <file leaf-file-name="test_picnic.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test_picnic.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="14" selection-start="277" selection-end="277" vertical-scroll-proportion="0.28125">
+                <state line="8" column="48" selection-start="186" selection-end="186" vertical-scroll-proportion="0.29508197">
                   <folding>
-                    <element signature="e#24#39#0" expanded="true" />
+                    <element signature="e#46#61#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -76,17 +91,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$USER_HOME$/Library/Caches/PyCharm20/python_stubs/596071422/__builtin__.py" />
         <option value="$PROJECT_DIR$/src/festival.py" />
         <option value="$PROJECT_DIR$/src/test_festival.py" />
+        <option value="$PROJECT_DIR$/src/picnic.py" />
+        <option value="$PROJECT_DIR$/src/test_picnic.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="482" />
+    <option name="x" value="349" />
+    <option name="y" value="250" />
     <option name="width" value="1512" />
     <option name="height" value="944" />
   </component>
@@ -97,7 +120,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -116,6 +139,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,17 +174,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="coverage" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -170,30 +193,10 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python's test.Unittests in TestFestival.test_calculate">
-    <configuration default="false" name="Unittests in TestFestival" type="tests" factoryName="Unittests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="jmbook" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_festival.py" />
-      <option name="CLASS_NAME" value="TestFestival" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittest FestivalTest.test_solve">
     <configuration default="false" name="festival" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,7 +216,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in TestFestival.test_calculate" type="tests" factoryName="Unittests" temporary="true">
+    <configuration default="false" name="Unittests in test_picnic" type="tests" factoryName="Unittests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -222,19 +225,21 @@
       <option name="IS_MODULE_SDK" value="true" />
       <module name="jmbook" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_festival.py" />
-      <option name="CLASS_NAME" value="TestFestival" />
-      <option name="METHOD_NAME" value="test_calculate" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_picnic.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="test_festival" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="picnic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -245,8 +250,54 @@
       <option name="IS_MODULE_SDK" value="true" />
       <module name="jmbook" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_festival.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/picnic.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest PicnicTest.test_solve" type="tests" factoryName="Unittests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="jmbook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_picnic.py" />
+      <option name="CLASS_NAME" value="PicnicTest" />
+      <option name="METHOD_NAME" value="test_solve" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest FestivalTest.test_solve" type="tests" factoryName="Unittests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="jmbook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_festival.py" />
+      <option name="CLASS_NAME" value="FestivalTest" />
+      <option name="METHOD_NAME" value="test_solve" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -283,6 +334,8 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -303,18 +356,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python's test.Unittests in TestFestival" />
-      <item index="1" class="java.lang.String" itemvalue="Python.festival" />
-      <item index="2" class="java.lang.String" itemvalue="Python's test.Unittests in TestFestival.test_calculate" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test_festival" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.festival" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_picnic" />
+      <item index="2" class="java.lang.String" itemvalue="Python.picnic" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest PicnicTest.test_solve" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest FestivalTest.test_solve" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python's test.Unittests in TestFestival.test_calculate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_festival" />
-        <item index="2" class="java.lang.String" itemvalue="Python.festival" />
-        <item index="3" class="java.lang.String" itemvalue="Python's test.Unittests in TestFestival" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest FestivalTest.test_solve" />
+        <item index="1" class="java.lang.String" itemvalue="Python.festival" />
+        <item index="2" class="java.lang.String" itemvalue="Python.picnic" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest PicnicTest.test_solve" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_picnic" />
       </list>
     </recent_temporary>
   </component>
@@ -346,23 +401,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="482" width="1512" height="944" extended-state="0" />
-    <editor active="true" />
+    <frame x="349" y="250" width="1512" height="944" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11732606" sideWeight="0.73268527" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12278308" sideWeight="0.6419903" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2673147" sideWeight="0.99248636" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3118932" sideWeight="0.3287858" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3580097" sideWeight="0.6664393" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2851296" sideWeight="0.73268527" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -401,6 +457,9 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -423,14 +482,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test_festival.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/festival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_festival.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/festival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -444,7 +517,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/festival.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.03125">
+        <state line="9" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_festival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_festival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/src.test_festival.TestFestival">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>src.test_festival.TestFestival</OriginalElement>
+          <nodes>
+            <node x="" y="">src.test_festival.TestFestival</node>
+            <node x="" y="">_abcoll.Callable</node>
+            <node x="" y="">unittest.case.TestCase</node>
+            <node x="" y="">object</node>
+            <node x="" y="">_abcoll.Hashable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="89.0" y="122.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="503" column="8" selection-start="18038" selection-end="18038" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/596071422/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_picnic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="186" selection-end="186" vertical-scroll-proportion="0.29508197">
+          <folding>
+            <element signature="e#46#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/picnic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/festival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_festival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="417" selection-end="417" vertical-scroll-proportion="0.46706587">
           <folding />
         </state>
       </provider>
