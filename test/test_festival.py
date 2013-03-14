@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
-import festival
 import unittest
+
+import festival
 
 
 class FestivalTest(unittest.TestCase):
